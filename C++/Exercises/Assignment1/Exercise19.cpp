@@ -1,8 +1,13 @@
-// Program 5: While loop
+/*
+Exercise 19: Read the 30 values in an array
+Write a program to read 30 numbers. and ask the user about the following choices:
+1. Display all odd numbers > 50.
+2. Display the total of odd numbers.
+3 Display the average of odd numbers > 80
+*/
 #include <iostream>
 using namespace std;
 
-// 
 int main()
 {
 	int numbers[30];
