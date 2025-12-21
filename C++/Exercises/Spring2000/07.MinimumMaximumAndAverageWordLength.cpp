@@ -72,7 +72,7 @@ int main()
 		int sum = 0;
 		switch(tolower(option))
 		{
-			case 'a':	// Average word length
+			case 'a':	// Average word length متوسط طول الكلمة
 				if(wordCount > 0)
 				{
 					// Calculate the word length average
@@ -82,6 +82,7 @@ int main()
 					}
 					cout << "Average word length = " << 1.0 * sum / wordCount << endl;
 				}
+				// If no words, don't divide by zero
 				else
 				{
 					cout << "No words entered." << endl;
