@@ -23,6 +23,10 @@ int main()
 	const short SIZE_X = sizeof(x) / sizeof(x[0]),
 				SIZE_Y = sizeof(y) / sizeof(y[0]);
 	/*
+	// Sizes of the arrays
+	const short SIZE_X = 100,
+				SIZE_Y = 100;
+
 	// Ask the user to enter SIZE_X of array elements of X
 	for(int i = 0; i < SIZE_X; i++)
 	{
@@ -36,7 +40,7 @@ int main()
 		cin >> x[i];
 	}
 	*/
-	
+
 	// b. find 2 values equal to (1st & last cells)
 	// Initial values of the indices of the twins
 	int indexOfFirstTwin = 0,
